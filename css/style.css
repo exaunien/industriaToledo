@@ -264,8 +264,8 @@ header h1 span {
   align-items: center;
 }
 
-.datos h3 {
-  color: aliceblue;
+.datos {
+  color: gold;
 }
 .datos hr {
   border-width: 5px;
@@ -275,7 +275,6 @@ header h1 span {
 .datos p {
   font-family: poppins;
   font-weight: 600;
-  color: aliceblue;
   text-align: center;
 }
 .formulario div {
