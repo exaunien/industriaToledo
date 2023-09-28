@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | Industrias Toledo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header> <!--Header lleva bootstrap es comun a las 5 paginas-->
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <h1>
+            <a href="index.html">INDUSTRIAS<span>Toledo</span></a><!--logo nav-->
+          </h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li><!--menu de navegacion-->
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/divisiones.html"
+                  >Divisiones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/comercio.html">Comercio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header><!--fin de header en comun para las 5 paginas-->
+    <main>
+      <section class="hero"><!--seccion principal index-->
+        <p>
+          + DE 50 AÑOS<br />EN EL MERCADO<br />Somos una empresa Marplatense<br />con
+          Industrias propias
+        </p>
+      </section>
+      <section class="logos"><!--tarjetas en bootstrap con hipervinculo a diviones-->
+        <div class="card shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+          <img
+            src="./img/Poultry Alta Definicion - 2.jpg"
+            class="card-img-top"
+            alt="Logo Poultry"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Division Avicultura</h5>
+            <a href="./pages/divisiones.html#avicultura" class="btn btn-warning"
+              >Mas Detalles</a
+            >
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+          <img
+            src="./img/Pork Meat-2.jpg"
+            class="card-img-top"
+            alt="Logo Pork Meat"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Division Porcinos</h5>
+            <a href="./pages/divisiones.html#cerdos" class="btn btn-warning"
+              >Mas Detalles</a
+            >
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+          <img
+            src="./img/LOGO IGEA-copia.png"
+            class="card-img-top"
+            alt="Logo Igea"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Division Panificados</h5>
+            <a href="./pages/divisiones.html#panes" class="btn btn-warning"
+              >Mas Detalles</a
+            >
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+          <img
+            src="./img/Lamb Meat.jpeg"
+            class="card-img-top"
+            alt="Logo Lamb"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Division Ovinos</h5>
+            <a href="./pages/divisiones.html#oveja" class="btn btn-warning"
+              >Mas Detalles</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pie"><!--Footer comun a las 5 paginas se aplica flex-->
+      <div>
+        <h2>
+          <a href="index.html">INDUSTRIAS<span>Toledo</span></a>
+        </h2>
+      </div>
+      <p>Copyright 2023 - Industrias Toledo - Todos los derechos reservados</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
