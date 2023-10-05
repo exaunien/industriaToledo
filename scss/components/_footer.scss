@@ -1,0 +1,28 @@
+.pie {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 20px;
+  div {
+    h3 {
+      font-family: poppins;
+      font-size: 15px;
+      font-weight: 100;
+      a {
+        text-decoration: none;
+        color: aliceblue;
+        span {
+          font-family: outfit;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  p {
+    font-family: outfit;
+    font-size: 10px;
+  }
+}

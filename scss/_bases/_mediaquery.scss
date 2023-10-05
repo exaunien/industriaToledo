@@ -1,0 +1,64 @@
+@media screen and (max-width: 950px) {
+  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  .poultry,
+  .porcino {
+    flex-direction: column;
+    text-align: center;
+  }
+  .panificado,
+  .ovino {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  /*!---MEDIA QUERY PARA PAGINA COMERCIO--!*/
+  .comercio {
+    background-image: url(../img/import-7641107_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grupo_comercio {
+    display: none;
+  }
+  .galeria {
+    grid-auto-rows: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  .poultry div {
+    text-align: center;
+  }
+  /*!---MEDIA QUERY PARA FOOTER--!*/
+  .pie {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+  }
+  /*!----MEDIA QUERY PARA PAGINA CONTACTO--!*/
+  .contacto {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  /*!---MEDIA QUERY PARA PAGINA INDEX--!*/
+  .hero p {
+    text-align: center;
+  }
+  .logos {
+    flex-wrap: wrap;
+  }
+  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  .galeria {
+    grid-auto-rows: 150px;
+  }
+
+  /*!---FIN MEDIA QUERY 700PX--!*/
+}

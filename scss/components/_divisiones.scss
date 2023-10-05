@@ -1,0 +1,120 @@
+.poultry {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  .posicion_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+    }
+  }
+  div {
+    padding: 10px;
+    h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600;
+    }
+    p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+}
+
+.panificado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  div {
+    padding: 10px;
+    h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600;
+    }
+    p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .posicion_division {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+
+.porcino {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  .posicion_division {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  div {
+    padding: 10px;
+    h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600;
+    }
+    p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+}
+
+.ovino {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  div {
+    h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600;
+    }
+    p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+  .posicion_division {
+    padding: 10px;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}

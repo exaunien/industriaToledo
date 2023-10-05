@@ -1,0 +1,33 @@
+.contacto {
+  width: 100%;
+  margin-top: 70px;
+  padding: 35px;
+  background-image: url(../img/logistics-5296666_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .datos {
+    color: gold;
+    h2 {
+      font-family: outfit;
+      font-weight: 600;
+      font-style: italic;
+    }
+    p {
+      margin-top: 30px;
+      font-family: poppins;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}
+.formulario {
+  div {
+    font-family: poppins;
+    font-size: large;
+    font-weight: 600;
+  }
+}

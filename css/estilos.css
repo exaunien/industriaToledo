@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400;600&display=swap");
+/*!-------RESET----------!*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: black;
+  color: aliceblue; }
+  header nav {
+    position: sticky;
+    top: 0; }
+    header nav div h1 {
+      font-family: poppins;
+      font-size: 30px;
+      font-weight: 100;
+      margin: 10px; }
+      header nav div h1 span {
+        font-family: outfit;
+        font-weight: 600; }
+      header nav div h1 a {
+        text-decoration: none;
+        color: aliceblue; }
+
+.hero {
+  background-image: url(../img/ai-generated-8096072_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vb;
+  color: white;
+  text-align: left;
+  font-family: outfit;
+  font-size: large;
+  font-weight: 600; }
+  .hero p {
+    padding: 300px 10px;
+    text-align: justify; }
+
+.logos {
+  display: flex;
+  justify-content: center; }
+  .logos div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 5px; }
+    .logos div img {
+      width: 75px;
+      height: 75px; }
+    .logos div div h2 {
+      font-family: outfit;
+      font-weight: 600;
+      font-size: larger;
+      font-style: italic; }
+    .logos div div a {
+      font-family: outfit;
+      font-weight: 600;
+      font-size: small;
+      text-decoration: none;
+      color: black; }
+
+.poultry {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
+  .poultry .posicion_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .poultry .posicion_division img {
+      padding: 10px;
+      width: 200px;
+      height: 200px; }
+  .poultry div {
+    padding: 10px; }
+    .poultry div h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600; }
+    .poultry div p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400; }
+
+.panificado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
+  .panificado div {
+    padding: 10px; }
+    .panificado div h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600; }
+    .panificado div p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400; }
+    .panificado div .posicion_division img {
+      width: 200px;
+      height: 200px; }
+
+.porcino {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
+  .porcino .posicion_division img {
+    width: 200px;
+    height: 200px; }
+  .porcino div {
+    padding: 10px; }
+    .porcino div h2 {
+      font-family: poppins;
+      font-style: italic;
+      font-weight: 600; }
+    .porcino div p {
+      font-family: outfit;
+      font-style: italic;
+      font-weight: 400; }
+
+.ovino {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px;
+  -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+  box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
+  .ovino div h2 {
+    font-family: poppins;
+    font-style: italic;
+    font-weight: 600; }
+  .ovino div p {
+    font-family: outfit;
+    font-style: italic;
+    font-weight: 400; }
+  .ovino .posicion_division {
+    padding: 10px; }
+    .ovino .posicion_division img {
+      width: 200px;
+      height: 200px; }
+
+.comercial {
+  background-image: url(../img/barcoExport.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  color: white;
+  text-align: left;
+  font-family: outfit;
+  font-size: x-large;
+  font-weight: 800; }
+  .comercial div p {
+    margin-top: 70px;
+    padding: 30px; }
+
+.comercio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 50px; }
+  .comercio .grupo_comercio {
+    padding: 10px; }
+    .comercio .grupo_comercio img {
+      padding: 5px;
+      width: 250px;
+      height: 250px;
+      object-fit: cover; }
+  .comercio div h2 {
+    font-family: poppins;
+    font-style: italic;
+    font-weight: 600; }
+  .comercio div p {
+    font-family: outfit;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic; }
+
+.galeria {
+  width: 100%;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 220px;
+  gap: 10px; }
+  .galeria .galeria_item {
+    position: relative;
+    text-align: center; }
+    .galeria .galeria_item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+      -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
+      box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
+    .galeria .galeria_item h2 {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      color: aliceblue;
+      background-color: rgba(0, 0, 0, 0.391); }
+
+.contacto {
+  width: 100%;
+  margin-top: 70px;
+  padding: 35px;
+  background-image: url(../img/logistics-5296666_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .contacto .datos {
+    color: gold; }
+    .contacto .datos h2 {
+      font-family: outfit;
+      font-weight: 600;
+      font-style: italic; }
+    .contacto .datos p {
+      margin-top: 30px;
+      font-family: poppins;
+      font-weight: 600;
+      text-align: center; }
+
+.formulario div {
+  font-family: poppins;
+  font-size: large;
+  font-weight: 600; }
+
+.pie {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 20px; }
+  .pie div h3 {
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 100; }
+    .pie div h3 a {
+      text-decoration: none;
+      color: aliceblue; }
+      .pie div h3 a span {
+        font-family: outfit;
+        font-weight: 600; }
+  .pie p {
+    font-family: outfit;
+    font-size: 10px; }
+
+@media screen and (max-width: 950px) {
+  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  .poultry,
+  .porcino {
+    flex-direction: column;
+    text-align: center; }
+  .panificado,
+  .ovino {
+    flex-direction: column-reverse;
+    text-align: center; }
+  /*!---MEDIA QUERY PARA PAGINA COMERCIO--!*/
+  .comercio {
+    background-image: url(../img/import-7641107_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .grupo_comercio {
+    display: none; }
+  .galeria {
+    grid-auto-rows: 200px; } }
+
+@media screen and (max-width: 700px) {
+  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  .poultry div {
+    text-align: center; }
+  /*!---MEDIA QUERY PARA FOOTER--!*/
+  .pie {
+    flex-direction: column;
+    align-items: center; }
+  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px; }
+  /*!----MEDIA QUERY PARA PAGINA CONTACTO--!*/
+  .contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 550px) {
+  /*!---MEDIA QUERY PARA PAGINA INDEX--!*/
+  .hero p {
+    text-align: center; }
+  .logos {
+    flex-wrap: wrap; }
+  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  .galeria {
+    grid-auto-rows: 150px; }
+  /*!---FIN MEDIA QUERY 700PX--!*/ }
