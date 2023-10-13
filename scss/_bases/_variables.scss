@@ -1,0 +1,37 @@
+/*!---listas---**/
+$font-family: poppins, outfit;
+$font-width: 100, 200, 400, 600;
+$font-size: 10px, 12px, 15px, 17px, 20px, 35px;
+
+/*!--mapas--!*/
+$estilos: (
+  ancho: 100%,
+  alto: 100%,
+  objet-fit: cover,
+  alineacion: center,
+  style: italic,
+);
+
+/*!--Extended--!*/
+%familyPrimaria600 {
+  font-family: nth($font-family, 1);
+  font-weight: nth($font-width, 4);
+  font-style: italic;
+}
+%familyPrimaria400 {
+  font-family: nth($font-family, 1);
+  font-weight: nth($font-width, 3);
+  font-style: italic;
+}
+
+%familySecundaria600 {
+  font-family: nth($font-family, 2);
+  font-weight: nth($font-width, 4);
+  font-style: italic;
+}
+
+%familySecundaria400 {
+  font-family: nth($font-family, 2);
+  font-weight: nth($font-width, 3);
+  font-style: italic;
+}

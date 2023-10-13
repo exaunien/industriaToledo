@@ -1,33 +1,37 @@
+/*!--Pagina contacto--!*/
+/*!--Seccion contacto--!*/
 .contacto {
-  width: 100%;
-  margin-top: 70px;
-  padding: 35px;
-  background-image: url(../img/logistics-5296666_640.jpg);
+  width: map-get($estilos, ancho);
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/img/import-7641107_640.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   .datos {
+    padding-top: 75px;
     color: gold;
     h2 {
-      font-family: outfit;
-      font-weight: 600;
-      font-style: italic;
+      @extend %familySecundaria600;
     }
     p {
-      margin-top: 30px;
-      font-family: poppins;
-      font-weight: 600;
-      text-align: center;
+      @extend %familyPrimaria600;
+      text-align: map-get($estilos, alineacion);
+    }
+  }
+  .formulario {
+    padding-top: 75px;
+    div {
+      @extend %familyPrimaria600;
+      button {
+        @extend %familySecundaria600;
+      }
     }
   }
 }
-.formulario {
-  div {
-    font-family: poppins;
-    font-size: large;
-    font-weight: 600;
-  }
-}
+/*!--Fin seccion contacto--!*/
+/*!--Fin pagina Contacto--!*/

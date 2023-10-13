@@ -1,3 +1,5 @@
+/*!--Pagina Divisiones--!*/
+/*!--Seccion poultry--!*/
 .poultry {
   display: flex;
   justify-content: space-around;
@@ -20,18 +22,16 @@
   div {
     padding: 10px;
     h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600;
+      @extend %familyPrimaria600;
     }
     p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400;
+      @extend %familySecundaria400;
     }
   }
 }
+/*!--fin seccion poutry--!*/
 
+/*!--Seccion panificado--!*/
 .panificado {
   display: flex;
   justify-content: space-around;
@@ -43,14 +43,10 @@
   div {
     padding: 10px;
     h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600;
+      @extend %familyPrimaria600;
     }
     p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400;
+      @extend %familySecundaria400;
     }
     .posicion_division {
       img {
@@ -60,7 +56,9 @@
     }
   }
 }
+/*!--fin seccion panificado--!*/
 
+/*!--Seccion porcino--!*/
 .porcino {
   display: flex;
   justify-content: space-around;
@@ -78,18 +76,16 @@
   div {
     padding: 10px;
     h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600;
+      @extend %familyPrimaria600;
     }
     p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400;
+      @extend %familySecundaria400;
     }
   }
 }
+/*!--fin seccion porcino--!*/
 
+/*!--Seccion ovino--!*/
 .ovino {
   display: flex;
   justify-content: space-around;
@@ -100,14 +96,10 @@
   box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
   div {
     h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600;
+      @extend %familyPrimaria600;
     }
     p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400;
+      @extend %familySecundaria400;
     }
   }
   .posicion_division {
@@ -118,3 +110,5 @@
     }
   }
 }
+/*!--fin seccion porcino--!*/
+/*!--Fin pagina Divisiones--!*/

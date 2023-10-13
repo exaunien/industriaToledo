@@ -1,10 +1,34 @@
+/*!---listas---**/
+/*!--mapas--!*/
+/*!--Extended--!*/
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400;600&display=swap");
-/*!-------RESET----------!*/
+.hero, .poultry div h2, .panificado div h2, .porcino div h2, .ovino div h2, .comercio div h3, .contacto .datos p, .contacto .formulario div {
+  font-family: poppins;
+  font-weight: 600;
+  font-style: italic; }
+
+.comercio div p {
+  font-family: poppins;
+  font-weight: 400;
+  font-style: italic; }
+
+.logos div div h3, .comercial, .contacto .datos h2, .contacto .formulario div button, .pie p, .pie div p {
+  font-family: outfit;
+  font-weight: 600;
+  font-style: italic; }
+
+.poultry div p, .panificado div p, .porcino div p, .ovino div p {
+  font-family: outfit;
+  font-weight: 400;
+  font-style: italic; }
+
+/*!-------Reset----------!*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/*!--cuerpo del header--!*/
 header {
   background-color: black;
   color: aliceblue; }
@@ -13,7 +37,7 @@ header {
     top: 0; }
     header nav div h1 {
       font-family: poppins;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: 100;
       margin: 10px; }
       header nav div h1 span {
@@ -23,22 +47,25 @@ header {
         text-decoration: none;
         color: aliceblue; }
 
+/*!--Pagina de inicio--!*/
+/*!--Seccion Hero--!*/
 .hero {
-  background-image: url(../img/ai-generated-8096072_640.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/ai-generated-8096072_640.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 80vb;
+  height: 100vh;
   color: white;
-  text-align: left;
-  font-family: outfit;
-  font-size: large;
-  font-weight: 600; }
+  text-align: center;
+  font-size: large; }
+  .hero h2 {
+    padding: 85px 20px 0px 0px; }
   .hero p {
-    padding: 300px 10px;
-    text-align: justify; }
+    padding: 2px 20px; }
 
+/*!--fin seccion Hero--!*/
+/*!--Seccion de logos--!*/
 .logos {
   display: flex;
   justify-content: center; }
@@ -53,11 +80,8 @@ header {
     .logos div img {
       width: 75px;
       height: 75px; }
-    .logos div div h2 {
-      font-family: outfit;
-      font-weight: 600;
-      font-size: larger;
-      font-style: italic; }
+    .logos div div h3 {
+      font-size: larger; }
     .logos div div a {
       font-family: outfit;
       font-weight: 600;
@@ -65,6 +89,10 @@ header {
       text-decoration: none;
       color: black; }
 
+/*!--fin seccion Logos--!*/
+/*!--Fin pagina de inicio--!*/
+/*!--Pagina Divisiones--!*/
+/*!--Seccion poultry--!*/
 .poultry {
   display: flex;
   justify-content: space-around;
@@ -84,15 +112,9 @@ header {
       height: 200px; }
   .poultry div {
     padding: 10px; }
-    .poultry div h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600; }
-    .poultry div p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400; }
 
+/*!--fin seccion poutry--!*/
+/*!--Seccion panificado--!*/
 .panificado {
   display: flex;
   justify-content: space-around;
@@ -103,18 +125,12 @@ header {
   box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
   .panificado div {
     padding: 10px; }
-    .panificado div h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600; }
-    .panificado div p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400; }
     .panificado div .posicion_division img {
       width: 200px;
       height: 200px; }
 
+/*!--fin seccion panificado--!*/
+/*!--Seccion porcino--!*/
 .porcino {
   display: flex;
   justify-content: space-around;
@@ -128,15 +144,9 @@ header {
     height: 200px; }
   .porcino div {
     padding: 10px; }
-    .porcino div h2 {
-      font-family: poppins;
-      font-style: italic;
-      font-weight: 600; }
-    .porcino div p {
-      font-family: outfit;
-      font-style: italic;
-      font-weight: 400; }
 
+/*!--fin seccion porcino--!*/
+/*!--Seccion ovino--!*/
 .ovino {
   display: flex;
   justify-content: space-around;
@@ -145,36 +155,32 @@ header {
   -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
   -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
   box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
-  .ovino div h2 {
-    font-family: poppins;
-    font-style: italic;
-    font-weight: 600; }
-  .ovino div p {
-    font-family: outfit;
-    font-style: italic;
-    font-weight: 400; }
   .ovino .posicion_division {
     padding: 10px; }
     .ovino .posicion_division img {
       width: 200px;
       height: 200px; }
 
+/*!--fin seccion porcino--!*/
+/*!--Fin pagina Divisiones--!*/
+/*!--Pagina comercio--!*/
+/*!--Seccion Comercial--!*/
 .comercial {
   background-image: url(../img/barcoExport.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   color: white;
   text-align: left;
-  font-family: outfit;
-  font-size: x-large;
-  font-weight: 800; }
-  .comercial div p {
-    margin-top: 70px;
-    padding: 30px; }
+  font-size: x-large; }
+  .comercial h2 {
+    padding: 85px 20px 0px 15px; }
+  .comercial p {
+    padding: 2px 20px 0px 15px; }
 
+/*!--Seccion Comercio--!*/
 .comercio {
   display: flex;
   justify-content: space-around;
@@ -188,23 +194,19 @@ header {
       width: 250px;
       height: 250px;
       object-fit: cover; }
-  .comercio div h2 {
-    font-family: poppins;
-    font-style: italic;
-    font-weight: 600; }
   .comercio div p {
-    font-family: outfit;
-    font-size: medium;
-    font-weight: 400;
-    font-style: italic; }
+    font-size: medium; }
 
+/*!--Fin pagina comercio--!*/
+/*!--Pagina Productos--!*/
+/*!--Seccion de galeria de imagenes--!*/
 .galeria {
   width: 100%;
   margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 220px;
-  gap: 10px; }
+  gap: 15px; }
   .galeria .galeria_item {
     position: relative;
     text-align: center; }
@@ -217,16 +219,23 @@ header {
       box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75); }
     .galeria .galeria_item h2 {
       width: 100%;
+      font-family: poppins;
+      font-size: 17px;
+      font-style: italic;
+      font-weight: bolder;
       position: absolute;
       bottom: 0;
       color: aliceblue;
       background-color: rgba(0, 0, 0, 0.391); }
 
+/*!--fin de seccion galeria--!*/
+/*!--fin Pagina Productos--!*/
+/*!--Pagina contacto--!*/
+/*!--Seccion contacto--!*/
 .contacto {
   width: 100%;
-  margin-top: 70px;
-  padding: 35px;
-  background-image: url(../img/logistics-5296666_640.jpg);
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/import-7641107_640.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,46 +243,51 @@ header {
   justify-content: space-around;
   align-items: center; }
   .contacto .datos {
+    padding-top: 75px;
     color: gold; }
-    .contacto .datos h2 {
-      font-family: outfit;
-      font-weight: 600;
-      font-style: italic; }
     .contacto .datos p {
-      margin-top: 30px;
-      font-family: poppins;
-      font-weight: 600;
       text-align: center; }
+  .contacto .formulario {
+    padding-top: 75px; }
 
-.formulario div {
+/*!--Fin seccion contacto--!*/
+/*!--Fin pagina Contacto--!*/
+/*!--Cuerpo del footer--!*/
+.pie div h4 {
   font-family: poppins;
-  font-size: large;
+  font-size: 17px;
+  font-weight: 100; }
+  .pie div h4 a {
+    text-decoration: none;
+    color: aliceblue; }
+    .pie div h4 a span {
+      font-family: outfit;
+      font-weight: 600; }
+
+.pie p {
+  font-size: 12px; }
+
+.pie div h5 {
+  font-family: poppins;
+  font-size: 17px;
   font-weight: 600; }
 
-.pie {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: aliceblue;
-  padding: 20px; }
-  .pie div h3 {
-    font-family: poppins;
-    font-size: 15px;
-    font-weight: 100; }
-    .pie div h3 a {
-      text-decoration: none;
-      color: aliceblue; }
-      .pie div h3 a span {
-        font-family: outfit;
-        font-weight: 600; }
-  .pie p {
-    font-family: outfit;
-    font-size: 10px; }
+.pie div p {
+  font-size: 12px; }
+  .pie div p a {
+    text-decoration: none; }
+    .pie div p a:hover {
+      color: aliceblue !important; }
 
+.pie div ul li a {
+  text-decoration: none;
+  font-size: small; }
+  .pie div ul li a:hover {
+    color: white; }
+
+/*!--MEDIA QUERY 950PX--!*/
 @media screen and (max-width: 950px) {
-  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  /*!---Media query pagina Divisiones--!*/
   .poultry,
   .porcino {
     flex-direction: column;
@@ -281,8 +295,8 @@ header {
   .panificado,
   .ovino {
     flex-direction: column-reverse;
-    text-align: center; }
-  /*!---MEDIA QUERY PARA PAGINA COMERCIO--!*/
+    text-align: center;
+    /*!---Media query para pagina Comercio--!*/ }
   .comercio {
     background-image: url(../img/import-7641107_640.jpg);
     background-repeat: no-repeat;
@@ -296,29 +310,37 @@ header {
   .galeria {
     grid-auto-rows: 200px; } }
 
+/*!---Fin media query 950px--!*/
+/*!--MEDIA QUERY 700PX--!*/
 @media screen and (max-width: 700px) {
-  /*!---MEDIA QUERY PARA PAGINA DIVISIONES--!*/
+  /*!---Media query pagina Divisiones--!*/
   .poultry div {
     text-align: center; }
-  /*!---MEDIA QUERY PARA FOOTER--!*/
-  .pie {
-    flex-direction: column;
-    align-items: center; }
-  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  /*!---Media query pagina Productos--!*/
   .galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 180px; }
-  /*!----MEDIA QUERY PARA PAGINA CONTACTO--!*/
+  /*!--Media query pagina Contacto--!*/
   .contacto {
-    flex-direction: column; } }
+    flex-direction: column;
+    height: auto; }
+    .contacto .datos h2 {
+      padding-top: 10px; }
+  /*!--fin media query 700PX--!*/ }
 
+/*!--MEDIA QUERY 550PX--!*/
 @media screen and (max-width: 550px) {
-  /*!---MEDIA QUERY PARA PAGINA INDEX--!*/
+  /*!--Media query pagina Inicio--!*/
   .hero p {
     text-align: center; }
   .logos {
     flex-wrap: wrap; }
-  /*!---MEDIA QUERY PARA PAGINA PRODUCTO--!*/
+  /*!---Media query pagina productos--!*/
   .galeria {
     grid-auto-rows: 150px; }
-  /*!---FIN MEDIA QUERY 700PX--!*/ }
+  /*!--Media query pagina contacto--!*/
+  .contacto h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px; }
+  /*!---fin media query 550PX--!*/ }
