@@ -3,8 +3,7 @@
 .contacto {
   width: map-get($estilos, ancho);
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/img/import-7641107_640.jpg);
+  background-image: url(../img/import-7641107_640.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
