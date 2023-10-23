@@ -8,12 +8,16 @@
   grid-auto-rows: 220px;
   gap: 15px;
   .galeria_item {
+    transition: 0.5s;
     position: relative;
     text-align: center;
     img {
       width: map-get($estilos, ancho);
       height: map-get($estilos, alto);
       object-fit: map-get($estilos, objet-fit);
+      &:hover {
+        transform: scale(1.05);
+      }
       -webkit-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
       -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
       box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);

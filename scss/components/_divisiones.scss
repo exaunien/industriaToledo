@@ -48,11 +48,16 @@
     p {
       @extend %familySecundaria400;
     }
-    .posicion_division {
-      img {
-        width: 200px;
-        height: 200px;
-      }
+  }
+  .posicion_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      padding: 10px;
+      width: 200px;
+      height: 200px;
     }
   }
 }
@@ -68,6 +73,10 @@
   -moz-box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
   box-shadow: 2px 9px 76px 1px rgba(126, 128, 105, 0.75);
   .posicion_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     img {
       width: 200px;
       height: 200px;
@@ -103,6 +112,10 @@
     }
   }
   .posicion_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 10px;
     img {
       width: 200px;

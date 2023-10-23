@@ -13,17 +13,30 @@
     /*!---Media query para pagina Comercio--!*/
   }
   .comercio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../img/import-7641107_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    div {
+      p {
+        color: aliceblue;
+        font-weight: 400;
+      }
+    }
   }
   .grupo_comercio {
     display: none;
   }
-  .galeria {
-    grid-auto-rows: 200px;
-  }
 }
+
+.galeria {
+  grid-auto-rows: 200px;
+}
+
 /*!---Fin media query 950px--!*/
 
 /*!--MEDIA QUERY 700PX--!*/
@@ -48,6 +61,7 @@
       }
     }
   }
+
   /*!--fin media query 700PX--!*/
 }
 
