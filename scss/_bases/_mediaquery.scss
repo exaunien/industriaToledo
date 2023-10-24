@@ -68,9 +68,12 @@
 /*!--MEDIA QUERY 550PX--!*/
 @media screen and (max-width: 550px) {
   /*!--Media query pagina Inicio--!*/
-  .hero p {
-    text-align: map-get($estilos, alineacion);
+  .hero {
+    p {
+      text-align: map-get($estilos, alineacion);
+    }
   }
+
   .logos {
     flex-wrap: wrap;
   }
